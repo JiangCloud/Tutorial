@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="80dip">
+
+        <ImageView
+            android:id="@+id/imageView_pic"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:background="@mipmap/ic_stub"
+            android:layout_margin="1dip"
+            android:layout_height="80dip" />
+        <ImageView
+            android:id="@+id/picMark"
+            android:layout_gravity="right|top"
+            android:background="@drawable/icon_back_32px"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+

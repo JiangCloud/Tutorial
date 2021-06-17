@@ -1,0 +1,24 @@
+include ':vmim'
+include ':app', ':sharesdk', ':pulltorefresh', ':easeuis', ':MusicBusiness',':BusinessInterface'
+project(':MusicBusiness').projectDir = new File('business/MusicBusiness')
+project(':BusinessInterface').projectDir = new File('business/BusinessInterface')
+project(':easeuis').projectDir = new File('easeui')
+
+
+
+/* +++++++++ 框架公共组件层 +++++++++ */
+include ':LibraryLayer'
+project(':LibraryLayer').projectDir = new File('common/LibraryLayer')
+
+
+
+
+/* +++++++++ 框架业务服务层 +++++++++ */
+include ':ImageServer', ':HttpServer'
+project(':ImageServer').projectDir = new File('server/ImageServer')
+project(':HttpServer').projectDir = new File('server/HttpServer')
+
+/* +++++++++ 框架基础组件层 +++++++++ */
+include  ':ConfigLayer', ':ToolLayer'
+project(':ConfigLayer').projectDir = new File('basis/ConfigLayer')
+project(':ToolLayer').projectDir = new File('basis/ToolLayer')

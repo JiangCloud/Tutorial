@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/BusinessInterface/BusinessInterface.iml" filepath="$PROJECT_DIR$/.idea/modules/business/BusinessInterface/BusinessInterface.iml" group="pod/BusinessInterface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basis/ConfigLayer/ConfigLayer.iml" filepath="$PROJECT_DIR$/.idea/modules/basis/ConfigLayer/ConfigLayer.iml" group="pod/ConfigLayer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/HttpServer/HttpServer.iml" filepath="$PROJECT_DIR$/.idea/modules/server/HttpServer/HttpServer.iml" group="pod/HttpServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/ImageServer/ImageServer.iml" filepath="$PROJECT_DIR$/.idea/modules/server/ImageServer/ImageServer.iml" group="pod/ImageServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/LibraryLayer/LibraryLayer.iml" filepath="$PROJECT_DIR$/.idea/modules/common/LibraryLayer/LibraryLayer.iml" group="pod/LibraryLayer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/MusicBusiness/MusicBusiness.iml" filepath="$PROJECT_DIR$/.idea/modules/business/MusicBusiness/MusicBusiness.iml" group="pod/MusicBusiness" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basis/ToolLayer/ToolLayer.iml" filepath="$PROJECT_DIR$/.idea/modules/basis/ToolLayer/ToolLayer.iml" group="pod/ToolLayer" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="pod/app" />
+      <module fileurl="file://$PROJECT_DIR$/easeui/easeuis.iml" filepath="$PROJECT_DIR$/easeui/easeuis.iml" group="pod/easeuis" />
+      <module fileurl="file://$PROJECT_DIR$/pod.iml" filepath="$PROJECT_DIR$/pod.iml" group="pod" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" filepath="$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" group="pod/pulltorefresh" />
+      <module fileurl="file://$PROJECT_DIR$/sharesdk/sharesdk.iml" filepath="$PROJECT_DIR$/sharesdk/sharesdk.iml" group="pod/sharesdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vmim/vmim.iml" filepath="$PROJECT_DIR$/.idea/modules/vmim/vmim.iml" group="pod/vmim" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="183dp"
+    android:background="@color/red">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_head"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFFFFF"
+        android:src="@mipmap/default_head">
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_back_32px"
+        />
+
+    <TextView
+        android:text="登陆"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</FrameLayout>
+
+    <ListView
+        android:id="@+id/my_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0.6dip"
+        android:divider="@color/font_color"
+        >
+    </ListView>
+    <Button
+        android:layout_marginTop="10dip"
+        android:id="@+id/loginOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出登陆"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

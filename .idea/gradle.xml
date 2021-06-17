@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\Android Studio\gradle\gradle-2.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/basis/ConfigLayer" />
+            <option value="$PROJECT_DIR$/basis/ToolLayer" />
+            <option value="$PROJECT_DIR$/business/BusinessInterface" />
+            <option value="$PROJECT_DIR$/business/MusicBusiness" />
+            <option value="$PROJECT_DIR$/common/LibraryLayer" />
+            <option value="$PROJECT_DIR$/easeui" />
+            <option value="$PROJECT_DIR$/pulltorefresh" />
+            <option value="$PROJECT_DIR$/server/HttpServer" />
+            <option value="$PROJECT_DIR$/server/ImageServer" />
+            <option value="$PROJECT_DIR$/sharesdk" />
+            <option value="$PROJECT_DIR$/vmim" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

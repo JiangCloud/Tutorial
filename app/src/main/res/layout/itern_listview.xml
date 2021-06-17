@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dip"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/headImage"
+        android:layout_marginLeft="16dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/chat_default_avatar"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        >
+        <TextView
+            android:id="@+id/userNickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="爱不释手"
+            />
+        <TextView
+            android:id="@+id/userInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/font_color"
+            android:text="26 交友"
+            />
+        <TextView
+            android:id="@+id/makingFriendWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_color"
+            android:textSize="14sp"
+            android:text="找个真心想结婚的"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

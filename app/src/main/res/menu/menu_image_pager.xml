@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cloud.xtilus.makingfriends.activity.ImagePagerActivity">
+
+    <group android:id="@+id/main_menu">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/new_pic"
+        android:title="@string/menu_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_notification"
+
+        android:icon="@mipmap/ic_notifications"
+        android:title="@string/menu_notifications"
+        app:showAsAction="ifRoom" />
+
+
+   <!-- <item
+        android:id="@+id/action_item1"
+        android:title="@string/item_01"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@mipmap/icon_cart"
+        android:title="@string/item_02"
+        app:showAsAction="withText" />-->
+    </group>
+</menu>
